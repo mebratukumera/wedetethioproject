@@ -1,0 +1,64 @@
+:root{
+    --mainBlue:#2a2a72;
+    --lightBlue:#009ffd;
+    --mainWhite:#f3f3f3;
+    --mainDark:#232528;
+    --mainYellow:rgb(252, 123, 18);
+}
+.home{
+    background-image: url('./home_bg.png');
+    width: 100%;
+}
+.home_menu  span{
+   width: 50px;
+   height: 50px;
+   background-color: red;
+   padding: 20px;
+   margin-top: 20%;
+   margin-left: 10px;
+   border-radius: 50%;
+}
+.social-media :link{
+    background-color:var(--mainYellow);
+    padding-left: 1rem;
+    margin: 1%;
+    border-radius: 50%;
+    text-align: center;
+}
+.ReviewList li{
+    text-transform: none;
+    list-style: none;
+    border: none;
+}
+.ReviewList li:hover{
+   /* font-size: 24px; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ReviewList li::selection{
+    color: red;
+}
+.ReviewCircle{
+    background-color: var(--mainYellow);
+    margin: 10%;
+    padding-top: 20px; 
+    color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px 
+}
+.reviewCatagory li{
+    color: var(--mainWhite);
+    list-style: none;
+    margin: 2px;
+    background-color: var(--mainYellow);
+    text-align: left;
+}
+.reviewResponseCircle{
+    background-color: var(--mainYellow);
+    margin: 10%;
+    padding-top: 20px; 
+    color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px 
+}
